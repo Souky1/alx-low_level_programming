@@ -2,16 +2,15 @@
 
 /**
  * _abs -  the absolute value
- * @a: compare integer
- * Return: always 0
+ * @b: compare integer
+ * Return: Always b
  */
 
-int _abs(int)
+int _abs(int b)
 {
-	if (a < 0)
-		a = (-1) * a;
-	else if (a >= 0)
-		a = a;
-	return (a);
+	if (b < 0)
+		b = (-1) * b;
+	else if (b >= 0)
+		b = b;
+	return (b);
 }
-
