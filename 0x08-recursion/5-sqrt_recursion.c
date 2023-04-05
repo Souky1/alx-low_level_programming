@@ -12,8 +12,9 @@ int number(int n, int b)
 		return (n);
 	if (n == b)
 		return (-1);
-	return (1 * number(n + 1, n));
+	return (1 * number(n + 1, b));
 }
+
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: n natural number
