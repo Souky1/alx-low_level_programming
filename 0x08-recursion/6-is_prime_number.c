@@ -1,4 +1,5 @@
 #include"main.h"
+
 /**
  * check - check a number if is prime or not
  * @x: number input
@@ -15,14 +16,15 @@ int check(int x, int y)
 	else
 		return (check(x + 1, y));
 }
+
 /**
- * is a _prime_number - check if a number is prime
+ * is_prime_number - check if a number is prime
  * @n: number to check
- * Return: 1 if is a prime otherwise return 0
+ * Return: 1 if prime otherwise return 0
  */
 int is_prime_number(int n)
 {
 	if (n == 2)
-	return (1);
+		return (1);
 	return (check(2, n));
 }
